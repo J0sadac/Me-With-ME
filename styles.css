@@ -1,11 +1,37 @@
-h1{
-    color: green;
-    background-color: greenyellow;
+body{
+    background-color: #3a393b;
+    padding: 0;
+    margin: 0;
 }
-/*h2{
-    color: hotpink;
-}*/
 
-.subtitulo{
-    color: orange;
+.barra{
+    background-color: black;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: right;
+    padding: 5px;
+}
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+}
+.barra ul li a{
+    text-decoration: none;
+    color: lightgray;
+    padding: 5px 10px;
+    background-color: #3a393b;
+    margin: 0px 3px;
+}
+    .barra ul li a:hover{
+    background-color: red;
+}
+
+section {
+    text-align: center;
+}
+section .titulo{
+    color: lightgray;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
 }
