@@ -1,37 +1,74 @@
 body{
-    background-color: #3a393b;
+    background-color: #0e0d0c;
     padding: 0;
     margin: 0;
 }
 
-.barra{
+.nav{
     background-color: black;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: inline-block;
+
+}
+.logo{
+    width: 69%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo figure img{
+    width: 150px;
+    text-align: left;
+}
+.barra{
+    width: 30%;
     max-width: 100%;
-    max-height: 100%;
+    display: inline-block;
     text-align: right;
-    padding: 5px;
 }
 .barra ul li{
     list-style: none;
     display: inline-block;
 }
 .barra ul li a{
-    text-decoration: none;
+    background-color: black;
     color: lightgray;
+    border-color: #3a393b;
+    border-style: solid;
+    border-width: 2px;
+    text-decoration: none;
     padding: 5px 10px;
-    background-color: #3a393b;
     margin: 0px 3px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 13px;
 }
     .barra ul li a:hover{
-    background-color: red;
+    background-color: #3a393b;
 }
 
 section {
     text-align: center;
+    margin-top: 200px;
 }
 section .titulo{
     color: lightgray;
     font-family: 'Catamaran', sans-serif;
     font-size: 30px;
     font-weight: 800;
+}
+
+.acerca{
+    padding: 20px;
+    background-color: black;
+    color: lightgray;
+    font-family: 'Pacifico';
+    font-size: 15px;
+}
+
+.nav-sec{
+    background-color: black;
+    width: 10%;
 }
