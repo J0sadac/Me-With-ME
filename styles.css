@@ -78,16 +78,17 @@ body{
     text-align: left;
     padding: 10px;
     margin: 200px 5px 10px;
+    background-color: #8E44AD;
 }
 .acerca-de h1{
-    color:  #151315;
+    color:  #E5E7E9;
     font-family: 'Catamaran';
     font-size: 30px;
     font-weight: 800;
 }
 
 .acerca-de p{
-    color:  #151315;
+    color:  #E5E7E9;
     font-family: 'Catamaran';
     font-size: 20px;
 }
