@@ -1,94 +1,24 @@
-body{
-    background-color: #E5E7E9;
-    padding: 0;
-    margin: 0;
+.nav-p {
+  background-color: #022157 !important;
+}
+.nav-p .nav-s > .nav-img {
+  color: #ffffff;
+}
+.nav-p .nav-s > div > ul > .nav-li > .nav-a {
+  color: #ffffff;
 }
 
-.nav{
-    background-color: #D2B4DE;
-    padding: 0px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    display: inline-block;
-    border-bottom-style: solid;
-    border-bottom-color: #8E44AD;
-
+.acerca-d {
+  background-color: #add8e6;
+  width: auto;
+  height: 800px;
+  margin: 100px 0 0;
 }
-.logo{
-    width: 69%;
-    display: inline-block;
-    vertical-align: middle;
+.acerca-d > .acerca-t {
+  color: #ffffff;
 }
-.logo figure a{
-    color: #E5E7E9;
-    font-family: 'pacifico';
-    font-size: 20px;
-    font-weight: 900;
-    text-decoration: none;
-}
-/* .logo figure img{
-    width: 150px;
-    text-align: left;
-} */
-.barra{
-    width: 30%;
-    max-width: 100%;
-    display: inline-block;
-    text-align: right;
-}
-.barra ul li{
-    list-style: none;
-    display: inline-block;
-}
-.barra ul li a{
-    background-color: #A569BD;
-    color: #151315;
-    border-color: #E5E7E9;
-    border-style: solid;
-    border-width: 2px;
-    text-decoration: none;
-    padding: 5px 10px;
-    margin: 0px 3px;
-    font-family: 'Catamaran', sans-serif;
-    font-size: 13px;
-}
-    .barra ul li a:hover{
-    background-color: #8E44AD;
+.acerca-d > .acerca-p {
+  color: #ffffff;
 }
 
-.titulo {
-    text-align: center;
-    margin-top: 200px;
-}
-.titulo h1{
-    color:  #151315;
-    font-family: 'Catamaran', sans-serif;
-    font-size: 30px;
-    font-weight: 800;
-}
-
-.nav-sec{
-    background-color: black;
-    width: 10%;
-}
-
-.acerca-de{
-    text-align: left;
-    padding: 10px;
-    margin: 200px 5px 10px;
-    background-color: #8E44AD;
-}
-.acerca-de h1{
-    color:  #E5E7E9;
-    font-family: 'Catamaran';
-    font-size: 30px;
-    font-weight: 800;
-}
-
-.acerca-de p{
-    color:  #E5E7E9;
-    font-family: 'Catamaran';
-    font-size: 20px;
-}
+/*# sourceMappingURL=styles.css.map */
