@@ -1,12 +1,22 @@
 @use 'global' as *;
 
+body{
+    background-color: $color-f;
+}
 .nav-p{
     background-color: $color-p !important;
 
     .nav-s{
 
         & > .nav-img{
-            color: $color-f;
+            & > .img{
+                width: 200px;
+            }
+        }
+
+        & > .nav-b{
+            border-color: #000000;
+
         }
 
         & > div{
@@ -16,7 +26,10 @@
                 & > .nav-li{
 
                     & > .nav-a{
-                      color: $color-f;
+
+                        & > img{
+                            width: 25px;
+                        }
                     }
                 }
             }
@@ -27,15 +40,16 @@
 .acerca-d{
     background-color: $color-s;
     width: auto;
-    height: 800px;
     margin: 100px 0 0;
 
     & > .acerca-t{
-        color: $color-f;
+        padding: 10px 20px;
+        color: $color-l;
     }
 
     & > .acerca-p{
-        color: $color-f;
+        padding: 10px 20px;
+        color: $color-l-2;
     }
 
 }
