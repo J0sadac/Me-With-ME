@@ -1,9 +1,9 @@
 body {
-  background-color: #d9f4fd;
+  background-color: #e7f3f8;
 }
 
 .nav-p {
-  background-color: #77d6f6 !important;
+  background-color: #7dc5e6 !important;
 }
 .nav-p .nav-s > .nav-img > .img {
   width: 200px;
@@ -27,6 +27,31 @@ body {
 .acerca-d > .acerca-p {
   padding: 10px 20px;
   color: #212325;
+}
+
+.nota {
+  text-align: center;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  width: 20%;
+  margin: 20px auto;
+}
+.nota > .nota-t > .titulo {
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-bottom-color: black;
+}
+.nota > .nota-t > .hoja > input {
+  width: 100%;
+  height: 80px;
+}
+.nota > .nota-t > .boton > button {
+  margin: 5px;
+  padding: 5px;
+  border-color: #7dc5e6;
+  background-color: #7dc5e6;
+  border-style: solid;
 }
 
 /*# sourceMappingURL=styles.css.map */
