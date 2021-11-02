@@ -1,3 +1,17 @@
+.acerca-d {
+  background-color: #82e1ab;
+  width: auto;
+  margin: 100px 0 0;
+}
+.acerca-d > .acerca-t {
+  padding: 10px 20px;
+  color: #000000;
+}
+.acerca-d > .acerca-p {
+  padding: 10px 20px;
+  color: #212325;
+}
+
 body {
   background-color: #e7f3f8;
 }
@@ -15,18 +29,10 @@ body {
   width: 25px;
 }
 
-.acerca-d {
-  background-color: #82e1ab;
-  width: auto;
-  margin: 100px 0 0;
-}
-.acerca-d > .acerca-t {
-  padding: 10px 20px;
-  color: #000000;
-}
-.acerca-d > .acerca-p {
-  padding: 10px 20px;
-  color: #212325;
+.nav-vertical {
+  background-color: #648ae1;
+  width: 15%;
+  height: 800px;
 }
 
 .nota {
@@ -45,11 +51,12 @@ body {
   background-color: #7dc5e6;
   text-align: center;
 }
-.nota > .nota-t > .hoja > input {
+.nota > .nota-t > .hoja input {
   width: 100%;
   height: 150px;
   background-color: #7dc5e6;
   border-style: none;
+  outline: none;
 }
 .nota > .nota-t > .boton {
   background-color: #7dc5e6;

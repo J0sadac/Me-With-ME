@@ -1,0 +1,18 @@
+@use 'global' as *;
+
+.acerca-d{
+    background-color: $color-s;
+    width: auto;
+    margin: 100px 0 0;
+
+    & > .acerca-t{
+        padding: 10px 20px;
+        color: $color-l;
+    }
+
+    & > .acerca-p{
+        padding: 10px 20px;
+        color: $color-l-2;
+    }
+
+}
