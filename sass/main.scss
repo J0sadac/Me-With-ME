@@ -1,5 +1,6 @@
 @use 'global' as *;
 @use 'acerca-de' as *;
+@use 'iniciar-sesion' as *;
 
 body{
     background-color: $color-f;
@@ -9,26 +10,39 @@ body{
     background-color: $color-p !important;
     .nav-s{
 
-        & > .nav-img{
-            & > .img{
+        .nav-img{
+            .img{
                 width: 200px;
             }
         }
 
-        & > .nav-b{
+        .nav-b{
             border-color: #000000;
 
         }
 
-        & > div{
+        div{
 
-            & > ul{
+            ul{
 
-                & > .nav-li{
+                .nav-li{
+                    display: flex;
+                    align-items: center;
+                    
+                    & > .img{
+                        img{
+                            border-radius: 100%;
+                            width: 25px;
+                            height: 25px;
+                        }
+                    }
+                    & > .drop{
+                        align-items: center;
+                    }
 
                     & > .nav-a{
 
-                        & > img{
+                        img{
                             width: 25px;
                         }
                     }
@@ -38,20 +52,32 @@ body{
     }
 }
 
-.nav-vertical{
+.nav-v{
     background-color: $color-p;
     width: 15%;
-    height: 800px;
+    height: 543px;
+    float: left;
+    border-top: solid 1px $color-f;
 }
 
 .nota{
+    border: solid 1px black;
+    background-color: $color-s-2;
+    align-content: center;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.escritor{
     border-color: black;
     border-style: solid;
     border-width: 1px;
     width: 40%;
-    margin: 20px auto;
+    margin: 20px;
 
-    & > .nota-t{
+
+    .esc-t{
         display: flex;
         flex-direction: column;
 
@@ -75,7 +101,7 @@ body{
             text-align: center;
 
 
-            & > button{
+            button{
                 margin: 5px 10px;
                 padding: 5px;
                 border-color: $color-p;
