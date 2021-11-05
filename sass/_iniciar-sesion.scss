@@ -1,15 +1,48 @@
-.logo-in{
-    text-align: center;
+@use 'global' as *;
 
-    img{
-        margin-top: 50px;
-        width: 400px;
+.inicio{
+    display:flex;
+    flex-direction: column;
+
+    .logo{
+        display: flex;
+        justify-content: center;
+
+        img{
+            margin-top: 50px;
+            margin-left: -20px;
+            width: 400px;
+        }
     }
+    .cont{
+        display: flex;
+        justify-content: center;
+
+        .inicio-cont{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            background-color: $color-s;
+            width: 500px;
+            margin: 50px;
+            padding: 10px;
+        }
+
+
+    }
+
 }
 
-.inicio-cont{
-    border: solid black 2px;
-    width: 500px;
-    margin: 50px auto;
-    padding: 10px;
+
+@media (max-width: 425px){
+    .inicio{
+        .logo{
+            .logo-in{
+                img{
+                    width: 275px;
+                }
+            }
+        }
+    }
 }

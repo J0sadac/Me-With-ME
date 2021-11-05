@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <nav class="navbar ms-auto navbar-expand-lg navbar-light bg-light nav-p sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-p sticky-top">
         <div class="container-fluid nav-s">
             <a class="navbar-brand nav-img" href="index.html">
                 <img class="img" src="./logos/logo.png" alt="logo">
@@ -29,21 +29,30 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-                <li class="nav-item nav-li">
-                    <a class="nav-link nav-a" href="index.html">
-                       <img src="./imagenes/house.svg" alt="Home">
+                <li class="nav-item dropdown nav-drop">
+                    <figure class="img">
+                        <img src="./imagenes/foto-de-perfil.PNG" alt="">
+                    </figure>
+                    <a class="nav-link dropdown-toggle drop" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Josa
                     </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Perfil</a></li>
+                      <li><a class="dropdown-item" href="#">Ayuda y asistencia</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="iniciar-sesion.html">Cerrar Sesión</a></li>
+                    </ul>
                 </li>
 
                 <li class="nav-item nav-li">
-                    <a class="nav-link nav-a" href="acerca-de.html">
-                        <img src="./imagenes/question-circle.svg" alt="Acerca de">
+                    <a class="nav-link nav-a" href="#">
+                        <img src="./imagenes/calendar.svg" alt="Calendario">
                     </a>
                 </li>
 
                 <li class="nav-item nav-li">
                     <a class="nav-link nav-a" href="#">
-                        <img src="./imagenes/gear.svg" alt="Configuracion">
+                        <img src="./imagenes/bell.svg" alt="Notificaciones">
                     </a>
                 </li>
 

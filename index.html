@@ -29,36 +29,30 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-                <li class="nav-item dropdown nav-li">
+                <li class="nav-item dropdown nav-drop">
                     <figure class="img">
                         <img src="./imagenes/foto-de-perfil.PNG" alt="">
                     </figure>
                     <a class="nav-link dropdown-toggle drop" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
+                      Josa
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Perfil</a></li>
+                      <li><a class="dropdown-item" href="#">Ayuda y asistencia</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="iniciar-sesion.html">Cerrar Sesión</a></li>
                     </ul>
-                  </li>
+                </li>
 
                 <li class="nav-item nav-li">
-                    <a class="nav-link nav-a" href="index.html">
-                        <img src="./imagenes/house.svg" alt="Home">
+                    <a class="nav-link nav-a" href="#">
+                        <img src="./imagenes/calendar.svg" alt="Calendario">
                     </a>
                 </li>
 
                 <li class="nav-item nav-li">
-                    <a class="nav-link nav-a" href="acerca-de.html">
-                        <img src="./imagenes/question-circle.svg" alt="Acerca de">
-                    </a>
-                </li>
-
-                <li class="nav-item nav-li">
-                    <a class="nav-link nav-a" href="iniciar-sesion.html">
-                        <img src="./imagenes/gear.svg" alt="Configuracion">
+                    <a class="nav-link nav-a" href="#">
+                        <img src="./imagenes/bell.svg" alt="Notificaciones">
                     </a>
                 </li>
 
@@ -69,15 +63,48 @@
 
     <nav class="nav-v">
         <ul>
-            <li class="nav-botones">Inicio</li>
-            <li class="nav-botones">Progreso</li>
-            <li class="nav-botones">Configuracion</li>
-            <li class="nav-botones">Acerca de</li>
+            <div class="nav-up">
+                <li>
+                   <a href="index.html" class="nav-btn">
+                       <img src="./imagenes/house.svg" alt="inicio" class="nav-icon">
+                       Inicio
+                   </a>
+                </li>
+
+                <li>
+                    <a href="" class="nav-btn">
+                        <img src="./imagenes/activity.svg" alt="Progreso" class="nav-icon">
+                        Progreso
+                    </a>
+                </li>
+            </div>
+
+            <div class="nav-down">
+                <li>
+                    <a href="" class="nav-btn">
+                        <img src="./imagenes/gear.svg" alt="Configuracion" class="nav-icon">
+                        Configuracion
+                    </a>
+                </li>
+                <li>
+                    <a href="acerca-de.html" class="nav-btn">
+                        <img src="./imagenes/question-circle.svg" alt="Acerca de" class="nav-icon">
+                        Acerca de
+                    </a>
+                </li>
+            </div>
         </ul>
     </nav>
 
     <section class="nota">
-        <h1>esto es un texto de prueba</h1>
+        <div class="nota-cont">
+            <h2>esto es un texto de prueba</h2>
+
+            <p>
+                aqui es donde se reflejan la notas que escribimos en en el
+                escritor de abajo.
+            </p>
+        </div>
     </section>
 
     <section class="escritor">
