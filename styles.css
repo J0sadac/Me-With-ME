@@ -5,7 +5,7 @@
 }
 .acerca-d > .acerca-t {
   padding: 10px 20px;
-  color: #000000;
+  color: #0000ff;
 }
 .acerca-d > .acerca-p {
   padding: 10px 20px;
@@ -57,7 +57,7 @@
   margin: 35px 5px 0;
   font-family: "Baloo 2", cursive;
   font-size: 18px;
-  color: #000000;
+  color: #0000ff;
 }
 
 @media (max-width: 425px) {
@@ -130,7 +130,7 @@ body {
 }
 .nav-v > ul .nav-up li .nav-btn {
   text-decoration: none;
-  color: #000000;
+  color: #0000ff;
   margin: 5px 0;
   padding: 10px 5px;
 }
@@ -146,7 +146,7 @@ body {
 }
 .nav-v > ul .nav-down li .nav-btn {
   text-decoration: none;
-  color: #000000;
+  color: #0000ff;
   margin: 5px 0;
   padding: 10px 5px;
 }
