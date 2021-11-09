@@ -38,15 +38,13 @@ body{
                             border-radius: 50%;
                             width: 25px;
                             height: 25px;
+                            object-fit: cover;
                         }
                     }
 
                     & > .drop{
                         font-size: 18px;
                     }
-                }
-                .nav-drop:hover{
-                    background-color: lightgrey;
                 }
 
                 .nav-li{
@@ -56,6 +54,7 @@ body{
 
                         img{
                             width: 25px;
+                            object-fit: scale-down;
                         }
                     }
                 }
@@ -86,7 +85,7 @@ body{
 
             li{
                 list-style: none;
-                margin: 10px -20px;
+                margin: 10px -30px;
 
                 .nav-btn{
                     text-decoration: none;
@@ -97,7 +96,11 @@ body{
                     .nav-icon{
                         margin: 0 5px;
                     }
-
+                }
+                .nav-btn:hover{
+                    border-left-style: solid;
+                    border-left-width: 1px;
+                    border-left-color: $color-l;
                 }
             }
         }
@@ -107,7 +110,7 @@ body{
 
             li{
                 list-style: none;
-                margin: 10px -20px;
+                margin: 10px -30px;
 
                 .nav-btn{
                     text-decoration: none;
@@ -118,7 +121,11 @@ body{
                     .nav-icon{
                         margin: 0 5px;
                     }
-
+                }
+                .nav-btn:hover{
+                    border-left-style: solid;
+                    border-left-width: 1px;
+                    border-left-color: $color-l;
                 }
             }
         }
@@ -138,6 +145,15 @@ body{
         height: 200px;
         padding: 15px;
         margin: 20px;
+
+        h2{
+            font-family: $font-p;
+            text-align: center;
+            font-size: 30px;
+        }
+        p{
+            font-family: $font-s;
+        }
     }
 }
 
