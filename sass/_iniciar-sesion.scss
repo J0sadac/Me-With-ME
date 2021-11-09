@@ -11,7 +11,7 @@
         img{
             margin-top: 50px;
             margin-left: -20px;
-            width: 400px;
+            width: 300px;
         }
     }
     .cont{
@@ -21,16 +21,41 @@
         .inicio-cont{
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
 
             background-color: $color-s;
-            width: 500px;
+            width: 300px;
+            height: 300px;
             margin: 50px;
             padding: 10px;
+
+            .correo{
+                font-family: $font-s;
+                font-size: 18px;
+                margin: 10px 5px 0;
+            }
+            .password{
+                font-family: $font-s;
+                font-size: 18px;
+                margin: 10px 5px 0;
+            }
+            .boton{
+                text-decoration: none;
+                text-align: center;
+
+                background-color: $color-s-3;
+                padding: 8px;
+                margin: 35px 5px 0;
+
+                font-family: $font-s;
+                font-size: 18px;
+                color: $color-l;
+            }
         }
 
 
     }
+
 
 }
 

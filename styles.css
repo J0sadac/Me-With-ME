@@ -23,7 +23,7 @@
 .inicio .logo img {
   margin-top: 50px;
   margin-left: -20px;
-  width: 400px;
+  width: 300px;
 }
 .inicio .cont {
   display: flex;
@@ -32,11 +32,32 @@
 .inicio .cont .inicio-cont {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: #82e1ab;
-  width: 500px;
+  width: 300px;
+  height: 300px;
   margin: 50px;
   padding: 10px;
+}
+.inicio .cont .inicio-cont .correo {
+  font-family: "Baloo 2", cursive;
+  font-size: 18px;
+  margin: 10px 5px 0;
+}
+.inicio .cont .inicio-cont .password {
+  font-family: "Baloo 2", cursive;
+  font-size: 18px;
+  margin: 10px 5px 0;
+}
+.inicio .cont .inicio-cont .boton {
+  text-decoration: none;
+  text-align: center;
+  background-color: #73dde1;
+  padding: 8px;
+  margin: 35px 5px 0;
+  font-family: "Baloo 2", cursive;
+  font-size: 18px;
+  color: #000000;
 }
 
 @media (max-width: 425px) {
@@ -49,7 +70,7 @@ body {
 }
 
 .nav-p {
-  background-color: #648ae1 !important;
+  background-color: #ffff !important;
 }
 .nav-p .nav-s .nav-img .img {
   width: 150px;
@@ -88,7 +109,7 @@ body {
 .nav-v {
   display: flex;
   flex-direction: column;
-  background-color: #648ae1;
+  background-color: #ffff;
   width: 170px;
   height: 100%;
   position: fixed;
@@ -178,8 +199,8 @@ body {
 .escritor .esc-t > .boton button {
   margin: 5px 10px;
   padding: 5px;
-  border-color: #648ae1;
-  background-color: #648ae1;
+  border-color: #73dde1;
+  background-color: #73dde1;
   border-style: solid;
   border-radius: 5px;
 }
