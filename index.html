@@ -100,32 +100,39 @@
         </ul>
     </nav>
 
-    <section class="nota">
-        <div class="nota-cont">
-            <h2>Esto es un texto de prueba</h2>
-
-            <p>
-                Aqui es donde se reflejan la notas que escribimos en la
-                parte de abajo.
-            </p>
-        </div>
-    </section>
-
+    
     <section class="escritor">
         <div class="esc-t">
             <div class="titulo">
                 <h5>Crear nota</h5>
             </div>
-            <div class="hoja">
-                <input type="text">
-            </div>
-            <div class="boton">
-                <button>Crear</button>
-            </div>
+            
+            <form action="" id="formNotas">
+                <div class="hoja">
+                    <input type="text" id="addNotas">
+                </div>
+                <div class="boton">
+                    <button type="submit">Crear</button>
+                </div>
+            </form>
         </div>
+    </section>
+    
+    <section class="nota" id="notas">
+       
     </section>
 
 
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous">
